@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>LMS Station</span>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="active"><a href="#"><i class="fas fa-th-large"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fas fa-book"></i> Courses</a></li>
+                    <li><a href="#"><i class="fas fa-video"></i> Live Classes</a></li>
+                    <li><a href="#"><i class="fas fa-graduation-cap"></i> Skill Center</a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> Tutors & Coaches</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="navbar">
+                <div class="current-plan">
+                    <button class="subscribe-btn">Full Subscription</button>
+                    <div class="plan-details">
+                        <span>Current Plan</span>
+                        <span>Upgrade Advance</span>
+                    </div>
+                </div>
+                <div class="navbar-icons">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-bell"></i>
+                    <span class="points"><i class="fas fa-star"></i> 15 PTS</span>
+                    <div class="user-profile">
+                        <i class="fas fa-user-circle user-avatar-icon"></i>
+                        <span>Hi, Khdxsohee</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </header>
+
+            <section class="dashboard-sections">
+                <div class="section-tabs">
+                    <button class="tab-btn active">All</button>
+                    <button class="tab-btn">Information Technology</button>
+                    <button class="tab-btn">Additional Mathematics</button>
+                    <button class="tab-btn">Physics</button>
+                    <button class="tab-btn">Chemistry</button>
+                    <button class="tab-btn">English Language</button>
+                    <button class="add-subject-btn"><i class="fas fa-plus"></i> Add Subject</button>
+                </div>
+
+                <div class="summary-cards">
+                    <div class="card experience">
+                        <i class="fas fa-chart-line icon-green"></i>
+                        <p>Experience Order</p>
+                        <h3>240 XD</h3>
+                        <button class="btn-green">Renew</button>
+                    </div>
+                    <div class="card points-card">
+                        <i class="fas fa-coins icon-yellow"></i>
+                        <p>Experience Points</p>
+                        <h3>5 PTS</h3>
+                        <button class="btn-yellow">Collect Points</button>
+                    </div>
+                    <div class="card advisor-card">
+                        <i class="fas fa-headset advisor-icon-fa"></i>
+                        <h4>Schedule a call with an academic advisor</h4>
+                        <p>Powered by <i class="fas fa-check-circle small-logo-fa"></i></p>
+                        <button class="btn-blue">Schedule Now</button>
+                    </div>
+                    <div class="card profile-summary">
+                        <i class="fas fa-user-tie profile-pic-fa"></i>
+                        <h4>Brad Pit</h4>
+                        <p>Educator</p>
+                        <div class="profile-stats">
+                            <div>Total Course<br><span>24</span></div>
+                            <div>Total Certificates<br><span>18</span></div>
+                        </div>
+                    </div>
+                </div>
+<h3>Recommended Courses</h3>
+<div class="recommended-courses">
+    <div class="course-card" data-subject="Additional Mathematics">
+        <div class="course-header">
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="course-thumb-icon-container"><i class="fas fa-calculator course-thumb-icon"></i></div>
+        <p class="course-category">Online Course</p>
+        <h4>Additional Mathematics</h4>
+        <div class="course-info">
+            <span><i class="fas fa-user"></i> Instructor</span>
+            <span><i class="fas fa-clock"></i> 8 Hour Takes / 60 Hour</span>
+        </div>
+        <button class="btn-green-outline">Start</button>
+    </div>
+
+    <div class="course-card" data-subject="Basic Calculus">
+        <div class="course-header">
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="course-thumb-icon-container"><i class="fas fa-square-root-alt course-thumb-icon"></i></div>
+        <p class="course-category">Online Course</p>
+        <h4>Basic Calculus</h4>
+        <div class="course-info">
+            <span><i class="fas fa-user"></i> Instructor</span>
+            <span><i class="fas fa-clock"></i> 8 Hour Takes / 60 Hour</span>
+        </div>
+        <button class="btn-green-outline">Start</button>
+    </div>
+
+    <div class="course-card" data-subject="Algebra">
+        <div class="course-header">
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="course-thumb-icon-container"><i class="fas fa-infinity course-thumb-icon"></i></div>
+        <p class="course-category">Online Course</p>
+        <h4>Algebra</h4>
+        <div class="course-info">
+            <span><i class="fas fa-user"></i> Instructor</span>
+            <span><i class="fas fa-clock"></i> 8 Hour Takes / 60 Hour</span>
+        </div>
+        <button class="btn-green-outline">Start</button>
+    </div>
+
+    <div class="course-card" data-subject="Complex Analysis">
+        <div class="course-header">
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="course-thumb-icon-container"><i class="fas fa-cubes course-thumb-icon"></i></div>
+        <p class="course-category">Online Course</p>
+        <h4>Complex Analysis</h4>
+        <div class="course-info">
+            <span><i class="fas fa-user"></i> Instructor</span>
+            <span><i class="fas fa-clock"></i> 8 Hour Takes / 60 Hour</span>
+        </div>
+        <button class="btn-green-outline">Start</button>
+    </div>
+</div>
+
+                <h3>Your Classes</h3>
+                <div class="your-classes">
+                    <div class="class-header-filters">
+                        <div class="class-filters">
+                            <button class="filter-btn active">All</button>
+                            <button class="filter-btn">Live</button>
+                            <button class="filter-btn">Upcoming</button>
+                        </div>
+                        <div class="sort-by">
+                            <span>Sort By:</span>
+                            <select>
+                                <option>Popular</option>
+                                <option>Newest</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="class-list">
+                        <div class="class-item" data-status="Live">
+    <div class="class-icon"><i class="fas fa-dna"></i></div>
+    <div class="class-details">
+        <h4>Biology Molecular</h4>
+        <div class="class-meta">
+            <span><i class="fas fa-clock"></i> 82 Hours</span>
+            <span><i class="fas fa-book-open"></i> 20 Lessons</span>
+            <span><i class="fas fa-tasks"></i> 8 Assignments</span>
+            <span><i class="fas fa-users"></i> 24 Students</span>
+        </div>
+    </div>
+    <div class="class-progress">
+        <span class="progress-percent">75%</span>
+        <div class="progress-bar-container"><div class="progress-bar" style="width: 75%;"></div></div>
+    </div>
+</div>
+
+<div class="class-item" data-status="Upcoming">
+    <div class="class-icon"><i class="fas fa-atom"></i></div>
+    <div class="class-details">
+        <h4>Physics</h4>
+        <div class="class-meta">
+            <span><i class="fas fa-clock"></i> 82 Hours</span>
+            <span><i class="fas fa-book-open"></i> 20 Lessons</span>
+            <span><i class="fas fa-tasks"></i> 8 Assignments</span>
+            <span><i class="fas fa-users"></i> 24 Students</span>
+        </div>
+    </div>
+    <div class="class-progress">
+        <span class="progress-percent">40%</span>
+        <div class="progress-bar-container"><div class="progress-bar" style="width: 40%;"></div></div>
+    </div>
+</div>
+
+                    </div>
+                </div>
+
+                <h3>Learning Activities</h3>
+                <div class="learning-activities-chart">
+                    <div class="chart-controls">
+                        <span>Days</span>
+                        <select>
+                            <option>Last 7 Days</option>
+                            <option>Last 30 Days</option>
+                        </select>
+                    </div>
+                    <div class="chart-area">
+                        <i class="fas fa-chart-area chart-placeholder-icon"></i>
+                        <p>Chart will be rendered here by JavaScript</p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
